@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # Start the Flask app in the background
-python "Web app/main.py" &
+python3 "Web app/main.py" &
 
 # Wait a few seconds for Flask to start
 sleep 3
