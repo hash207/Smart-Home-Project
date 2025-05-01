@@ -2,7 +2,7 @@ run = ["bash run.sh"]
 modules = ["python-3.11"]
 
 [nix]
-packages = ["gdb", "ncurses", "pkg-config", "python310"]
+packages = ["gdb", "ncurses", "pkg-config"]
 
 [[ports]]
 localPort = 5000
